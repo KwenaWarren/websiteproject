@@ -1,7 +1,7 @@
 import "./HomeimgStyle.css"
 
 import React from 'react'
-import Consult from '../assets/consult.jpg'
+import Consult from '../assets/Homeimg.jpg'
 import { Link } from "react-router-dom"
 
 const Homeimg = () => {
@@ -13,15 +13,16 @@ const Homeimg = () => {
         </div>
         <div className="content">
             <p>
-                i'm a Consultant
+                welcome to F-Y
             </p>
             <h1>
-                Consultant
+              Consultant
+
             </h1>
            <div>
-            <Link to="/career" className="btn"> Services
+            <Link to="/service" className="btn"> Services
             </Link>
-            <Link to="/contact" className="btn btn-light"> contact
+            <Link to="/contact" className="btn btn-light"> Contact us
             </Link>
            </div>
         </div>

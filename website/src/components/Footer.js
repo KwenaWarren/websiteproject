@@ -33,7 +33,10 @@ const footer = () => {
         </div>
         <div className="right">
             <h4>About the Company</h4>
-            <p></p>
+            <p>Well-reputed OD Specialist and Change Agent offering over two decades of global experince
+                across industries,strategising transformation frameworks,development plans and learning
+                tools for large projects while providing strategic guidance around skills and knowlegde management
+            </p>
             <div className="social">
             <FaFacebook size={30} style={{color:"#fff",marginRight:"1rem"
             }}/>
